@@ -1,0 +1,53 @@
+/* Basic Reset */
+body, h1, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url('https://img.freepik.com/free-photo/anime-style-cozy-home-interior-with-furnishings_23-2151176467.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1725062400&semt=ais_hybrid');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+
+#login-container {
+    /* background: rgba(182, 139, 139, 0.6); */
+    padding: 50px;
+    border-radius: 8px;
+    text-align: center;
+    width: 400px;
+}
+
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+
+.login-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #3498db;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #470cc6;
+}
